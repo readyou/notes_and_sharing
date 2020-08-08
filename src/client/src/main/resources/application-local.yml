@@ -1,0 +1,7 @@
+mysql:
+  hostAndPort: 127.0.0.1:3306
+  dbName: test
+  user: test
+  pw: test
+hello:
+  message: Hello World
