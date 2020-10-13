@@ -1,0 +1,16 @@
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # 运行前，请新建下面目录建立git仓库，并编辑文件：demo-local.yml
+          uri: ${HOME}/Desktop/tmp/config
+#          username: test
+#          password: test
